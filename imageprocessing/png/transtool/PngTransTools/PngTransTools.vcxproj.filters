@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="zlib\adler32.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\compress.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\crc32.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\deflate.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\gzclose.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\gzlib.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\gzread.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\gzwrite.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\infback.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\inffast.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\inflate.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\inftrees.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\trees.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\uncompr.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\zutil.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="libpng\png.c">
+      <Filter>libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="libpng\pngerror.c">
+      <Filter>libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="libpng\pngget.c">
+      <Filter>libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="libpng\pngmem.c">
+      <Filter>libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="libpng\pngpread.c">
+      <Filter>libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="libpng\pngread.c">
+      <Filter>libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="libpng\pngrio.c">
+      <Filter>libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="libpng\pngrtran.c">
+      <Filter>libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="libpng\pngrutil.c">
+      <Filter>libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="libpng\pngset.c">
+      <Filter>libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="libpng\pngtest.c">
+      <Filter>libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="libpng\pngtrans.c">
+      <Filter>libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="libpng\pngwio.c">
+      <Filter>libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="libpng\pngwrite.c">
+      <Filter>libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="libpng\pngwtran.c">
+      <Filter>libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="libpng\pngwutil.c">
+      <Filter>libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="ChunkReflow.cpp" />
+    <ClCompile Include="ChunkBreaker.cpp" />
+    <ClCompile Include="common\compress\util\CRCUtils.cpp">
+      <Filter>common\util</Filter>
+    </ClCompile>
+    <ClCompile Include="common\compress\util\MZTools.cpp">
+      <Filter>common\util</Filter>
+    </ClCompile>
+    <ClCompile Include="common\compress\zip\ioapi.cpp">
+      <Filter>common\zip</Filter>
+    </ClCompile>
+    <ClCompile Include="common\compress\zip\iowin32.cpp">
+      <Filter>common\zip</Filter>
+    </ClCompile>
+    <ClCompile Include="common\compress\zip\miniunz.cpp">
+      <Filter>common\zip</Filter>
+    </ClCompile>
+    <ClCompile Include="common\compress\zip\minizip.cpp">
+      <Filter>common\zip</Filter>
+    </ClCompile>
+    <ClCompile Include="common\compress\zip\unzip.cpp">
+      <Filter>common\zip</Filter>
+    </ClCompile>
+    <ClCompile Include="common\compress\zip\zip.cpp">
+      <Filter>common\zip</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="zlib">
+      <UniqueIdentifier>{161fa855-e6aa-41a6-8d0b-92f6f756c7e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libpng">
+      <UniqueIdentifier>{771302da-5bb3-4b95-bfee-063fe424a3a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libpng\Header">
+      <UniqueIdentifier>{ff450561-9a54-46b8-801c-46770637a2db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zlib\Header">
+      <UniqueIdentifier>{f3f72d2b-de82-4978-ae2e-6302afdd9888}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="image">
+      <UniqueIdentifier>{edab700a-3342-4d38-938b-12dfa58c04af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{025d7304-3408-4349-96a0-2ef771e6f160}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\util">
+      <UniqueIdentifier>{50a8beae-0786-4387-8521-f1a5173d3085}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\zip">
+      <UniqueIdentifier>{137f7944-04c8-4a44-83c5-15387b4c4dd9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="zlib\crc32.h">
+      <Filter>zlib\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\deflate.h">
+      <Filter>zlib\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\gzguts.h">
+      <Filter>zlib\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\inffast.h">
+      <Filter>zlib\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\inffixed.h">
+      <Filter>zlib\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\inflate.h">
+      <Filter>zlib\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\inftrees.h">
+      <Filter>zlib\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\trees.h">
+      <Filter>zlib\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\zconf.h">
+      <Filter>zlib\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\zlib.h">
+      <Filter>zlib\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\zutil.h">
+      <Filter>zlib\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="libpng\png.h">
+      <Filter>libpng\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="libpng\pngconf.h">
+      <Filter>libpng\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="libpng\pngdebug.h">
+      <Filter>libpng\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="libpng\pnginfo.h">
+      <Filter>libpng\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="libpng\pngpriv.h">
+      <Filter>libpng\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="libpng\pngstruct.h">
+      <Filter>libpng\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="libpng\pnglibconf.h">
+      <Filter>libpng\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="base.h" />
+    <ClInclude Include="ChunkReflow.h" />
+    <ClInclude Include="ChunkBreaker.h" />
+    <ClInclude Include="common\compress\util\CRCUtils.h">
+      <Filter>common\util</Filter>
+    </ClInclude>
+    <ClInclude Include="common\compress\util\MZTools.h">
+      <Filter>common\util</Filter>
+    </ClInclude>
+    <ClInclude Include="common\compress\zip\crypt.h">
+      <Filter>common\zip</Filter>
+    </ClInclude>
+    <ClInclude Include="common\compress\zip\ioapi.h">
+      <Filter>common\zip</Filter>
+    </ClInclude>
+    <ClInclude Include="common\compress\zip\iowin32.h">
+      <Filter>common\zip</Filter>
+    </ClInclude>
+    <ClInclude Include="common\compress\zip\unzip.h">
+      <Filter>common\zip</Filter>
+    </ClInclude>
+    <ClInclude Include="common\compress\zip\zip.h">
+      <Filter>common\zip</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
