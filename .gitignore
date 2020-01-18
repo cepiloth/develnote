@@ -2,3 +2,15 @@
 *.ipch
 algorithm/kakaocode/.vs/kakaocode/v16/Browse.VC.db
 algorithm/kakaocode/.vs/kakaocode/v16/.suo
+*.tlog
+algorithm/codeforce/codeforce/.vs/codeforce/v16/.suo
+*.db
+*.opendb
+*.pdb
+*.obj
+*.ilk
+*.filters
+*.user
+*.idb
+*.exe
+*.log
