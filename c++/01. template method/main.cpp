@@ -2,6 +2,15 @@
 #include <iostream>
 #include <string>
 
+template<typename T>
+void foo(T t)
+{
+	undeclared();			// undeclared()가 알려지 않았다면 첫 번째 단계 컴파일 오류
+	undeclared(T);			// undeclared(T)가 알려지지 않았다면 두 번째 단계 컴파일 오류
+	static_assert(sizeof(int) > 10, "int too small");	//sizeof(int)<=10 라면 항상 실패
+	static_assert(sizeof(T) > 10, "int too small");		// 크기가 10보다 작거나 같은 T로 인스턴스화 됐다면 실패
+}
+
 int main() {
 
 	int i = 42;
