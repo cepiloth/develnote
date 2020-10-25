@@ -2,15 +2,14 @@
 using namespace std;
 
 #include "Monostate.h"
+#include "HtmlBuilder.h"
 
-void print_monostate(std::string name, int id) {
-	cout << name << " id : " << id << endl;
-}
 
 int main()
 {
-	Printer *A = new Printer();
-	Printer *B = new Printer();	
-	
+	HtmlBuilder builder{ "ui" };
+	builder.add_child("li", "hello");
+	builder.add_child("li", "world");
+	cout << builder.str() << endl;
 	return 0;
 }
