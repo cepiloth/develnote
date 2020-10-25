@@ -1,17 +1,16 @@
 #include <iostream>
+using namespace std;
 
 #include "Monostate.h"
 
+void print_monostate(std::string name, int id) {
+	cout << name << " id : " << id << endl;
+}
+
 int main()
 {
-	Printer A;
-	Printer B;
-
-	A.set_id(1);
-	A.print();
-	B.print();
-
-	B.set_id(2);
-	B.print();
+	Printer *A = new Printer();
+	Printer *B = new Printer();	
+	
 	return 0;
 }
