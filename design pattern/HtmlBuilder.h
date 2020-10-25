@@ -53,3 +53,37 @@ struct HtmlBuilder
 		return root.str(); 
 	}
 };
+
+/* USAGE
+	HtmlBuilder builder{ "ui" };
+	builder.add_child("li", "hello");
+	builder.add_child("li", "world");
+	cout << builder.str() << endl;
+*/
+
+/* fluent interface*/
+
+struct HtmlFluentBuilder
+{
+	HtmlElement root;
+
+	HtmlFluentBuilder(std::string root_name) { root.name = root_name; }
+
+	HtmlFluentBuilder& add_child(std::string child_name, std::string child_text) {
+		HtmlElement e{ child_name, child_text };
+		root.elements.emplace_back(e);
+		return *this;
+	}
+
+	std::string str() {
+		return root.str();
+	}
+};
+
+/* USAGE
+
+HtmlFluentBuilder builder{ "ui" };
+builder.add_child("li", "hello").add_child("li", "world");
+cout << builder.str() << endl;
+
+*/
