@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClInclude Include="design pattern\HtmlBuilder.h" />
     <ClInclude Include="design pattern\Monostate.h" />
+    <ClInclude Include="design pattern\EmailBuilder.h" />
     <ClInclude Include="source\Monostate_cat.h" />
     <ClInclude Include="template method\max1.hpp" />
   </ItemGroup>

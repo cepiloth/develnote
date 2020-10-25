@@ -81,7 +81,6 @@ struct HtmlFluentBuilder
 };
 
 /* USAGE
-
 HtmlFluentBuilder builder{ "ui" };
 builder.add_child("li", "hello").add_child("li", "world");
 cout << builder.str() << endl;

@@ -3,12 +3,15 @@ using namespace std;
 
 #include "Monostate.h"
 #include "HtmlBuilder.h"
-
+#include "EmailBuilder.h"
 
 int main()
 {
-	HtmlFluentBuilder builder{ "ui" };
-	builder.add_child("li", "hello").add_child("li", "world");
-	cout << builder.str() << endl;
+    Email mail = Email::make().from("me@mail.com")
+        .to("you@mail.com")
+        .subject("C++ builders")
+        .body("I like this API, don't you?");
+
+    cout << mail << endl;
 	return 0;
 }
