@@ -3,15 +3,19 @@ using namespace std;
 
 #include "Monostate.h"
 #include "HtmlBuilder.h"
+#include "CompositeBuilder/PersonBuilderBase.h"
+#include "CompositeBuilder/Person.h"
 #include "EmailBuilder.h"
 
 int main()
 {
-    Email mail = Email::make().from("me@mail.com")
-        .to("you@mail.com")
-        .subject("C++ builders")
-        .body("I like this API, don't you?");
+	Person p = Person::create()
+		.lives().at("123 London Road")
+		.with_postcode("SW1 1GB")
+		.in("London")
+		.works().at("PragmaSoft")
+		.as_a("Consultant")
+		.earning(10e6);
 
-    cout << mail << endl;
 	return 0;
 }

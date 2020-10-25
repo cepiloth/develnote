@@ -139,6 +139,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="design pattern\CompositeBuilder\Person.h" />
+    <ClInclude Include="design pattern\CompositeBuilder\PersonBuilderBase.h" />
     <ClInclude Include="design pattern\HtmlBuilder.h" />
     <ClInclude Include="design pattern\Monostate.h" />
     <ClInclude Include="design pattern\EmailBuilder.h" />
@@ -146,6 +148,8 @@
     <ClInclude Include="template method\max1.hpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="design pattern\CompositeBuilder\Person.cpp" />
+    <ClCompile Include="design pattern\CompositeBuilder\PersonBuilder.cpp" />
     <ClCompile Include="source\main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
