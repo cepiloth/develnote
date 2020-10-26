@@ -20,24 +20,21 @@ public:
 	// 생성자 은닉 복제/이동 생성자/연산자 삭제
 };
 
-/*
-struct Database
+/* C++ 11 이하 버전 */
+class Database_c11
 {
-	
 public:
-	static Database& get() {
+	static Database_c11& get() {
 
 		// C++11 이상 버전에서는 스레드 세이프 함
-		static Database database;
+		static Database_c11 database;
 		return database;
 	}
 
 private:
-	Database() {;}
-	Database(Database const&) {;}
-	Database(Database&&) {;}
-	Database& operator=(Database const&) {;}
-	Database& operator=(Database&&) {;}
+	Database_c11() { ; }
+	Database_c11(Database_c11 const&) {;}
+	Database_c11(Database_c11&&) {;}
+	Database_c11& operator=(Database_c11 const&) {;}
+	Database_c11& operator=(Database_c11&&) {;}
 };
-
-*/

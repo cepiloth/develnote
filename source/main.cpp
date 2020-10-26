@@ -1,11 +1,14 @@
 #include <iostream>
 using namespace std;
 
+#include "SingleTon.h"
 #include "Monostate.h"
+
 #include "HtmlBuilder.h"
+#include "EmailBuilder.h"
+
 #include "CompositeBuilder/PersonBuilderBase.h"
 #include "CompositeBuilder/Person.h"
-#include "EmailBuilder.h"
 
 int main()
 {
