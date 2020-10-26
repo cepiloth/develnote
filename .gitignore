@@ -23,3 +23,7 @@ c++/.vs/c++/v16/.suo
 .vs/develnote/v16/Solution.VC.db-wal
 Debug/develnote.exe.recipe
 graphics/image/Debug/image.lib.recipe
+*.recipe
+*.iobj
+*.ipdb
+.vs/develnote/v16/.suo
