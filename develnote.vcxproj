@@ -87,7 +87,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>D:\GITHUB\develnote\design pattern;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\Design;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -139,18 +139,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="design pattern\CompositeBuilder\Person.h" />
-    <ClInclude Include="design pattern\CompositeBuilder\PersonBuilderBase.h" />
-    <ClInclude Include="design pattern\HtmlBuilder.h" />
-    <ClInclude Include="design pattern\Monostate.h" />
-    <ClInclude Include="design pattern\EmailBuilder.h" />
-    <ClInclude Include="design pattern\SingleTon.h" />
-    <ClInclude Include="source\Monostate_cat.h" />
+    <ClInclude Include="Design\EmailBuilder.h" />
+    <ClInclude Include="Design\HtmlBuilder.h" />
+    <ClInclude Include="Design\Monostate.h" />
+    <ClInclude Include="Design\Person.h" />
+    <ClInclude Include="Design\PersonBuilderBase.h" />
+    <ClInclude Include="Design\SingleTon.h" />
     <ClInclude Include="template method\max1.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="design pattern\CompositeBuilder\Person.cpp" />
-    <ClCompile Include="design pattern\CompositeBuilder\PersonBuilder.cpp" />
+    <ClCompile Include="Design\Person.cpp" />
+    <ClCompile Include="Design\PersonBuilder.cpp" />
     <ClCompile Include="source\main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -7,8 +7,8 @@ using namespace std;
 #include "HtmlBuilder.h"
 #include "EmailBuilder.h"
 
-#include "CompositeBuilder/PersonBuilderBase.h"
-#include "CompositeBuilder/Person.h"
+#include "PersonBuilderBase.h"
+#include "Person.h"
 
 int main()
 {
