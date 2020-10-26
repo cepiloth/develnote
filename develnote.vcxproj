@@ -145,10 +145,10 @@
     <ClInclude Include="Design\EmailBuilder.h" />
     <ClInclude Include="Design\HtmlBuilder.h" />
     <ClInclude Include="Design\Monostate.h" />
+    <ClInclude Include="Design\Monostate_cat.h" />
     <ClInclude Include="Design\Person.h" />
     <ClInclude Include="Design\PersonBuilderBase.h" />
     <ClInclude Include="Design\SingleTon.h" />
-    <ClInclude Include="template method\max1.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Design\Person.cpp" />

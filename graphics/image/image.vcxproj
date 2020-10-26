@@ -146,6 +146,7 @@
     <ClInclude Include="include\apAlloc.h" />
     <ClInclude Include="include\apAllocatorBase.h" />
     <ClInclude Include="include\apImage.h" />
+    <ClInclude Include="include\apUtils.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source\apAlloc.cpp" />
