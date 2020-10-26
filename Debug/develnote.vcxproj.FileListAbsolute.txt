@@ -1,2 +1,0 @@
-D:\android_ui\develnote\Debug\develnote.exe
-D:\android_ui\develnote\Debug\develnote.pdb
