@@ -142,9 +142,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="include\apAllocator.h" />
+    <ClInclude Include="include\apAlloc.h" />
+    <ClInclude Include="include\apAllocatorBase.h" />
     <ClInclude Include="include\apImage.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="source\apAlloc.cpp" />
+    <ClCompile Include="source\apAllocator.cpp" />
     <ClCompile Include="source\apImage.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
