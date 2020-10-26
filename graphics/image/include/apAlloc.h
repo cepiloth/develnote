@@ -1,6 +1,8 @@
 #pragma once
 
 #include "apAllocator.h"
+
+#if 0
 template<typename T, typename A = apAllocator_<T> >
 class apAlloc
 {
@@ -43,3 +45,5 @@ protected:
 	// Our null object
 	static apAlloc* sNull_;
 };
+
+#endif
