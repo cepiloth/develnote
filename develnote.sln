@@ -7,6 +7,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "develnote", "develnote.vcxp
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "image", "graphics\image\image.vcxproj", "{2C78312D-07A3-4EB1-85A2-730A9D5363B0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "third_party", "third_party", "{1DEB28FA-D047-485C-8ACC-B722CEA5E28B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libtiff", "third_party\libtiff\libtiff.vcxproj", "{93C1FE26-D12D-486B-B404-25C366C3F794}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,9 +35,20 @@ Global
 		{2C78312D-07A3-4EB1-85A2-730A9D5363B0}.Release|x64.Build.0 = Release|x64
 		{2C78312D-07A3-4EB1-85A2-730A9D5363B0}.Release|x86.ActiveCfg = Release|Win32
 		{2C78312D-07A3-4EB1-85A2-730A9D5363B0}.Release|x86.Build.0 = Release|Win32
+		{93C1FE26-D12D-486B-B404-25C366C3F794}.Debug|x64.ActiveCfg = Debug|x64
+		{93C1FE26-D12D-486B-B404-25C366C3F794}.Debug|x64.Build.0 = Debug|x64
+		{93C1FE26-D12D-486B-B404-25C366C3F794}.Debug|x86.ActiveCfg = Debug|Win32
+		{93C1FE26-D12D-486B-B404-25C366C3F794}.Debug|x86.Build.0 = Debug|Win32
+		{93C1FE26-D12D-486B-B404-25C366C3F794}.Release|x64.ActiveCfg = Release|x64
+		{93C1FE26-D12D-486B-B404-25C366C3F794}.Release|x64.Build.0 = Release|x64
+		{93C1FE26-D12D-486B-B404-25C366C3F794}.Release|x86.ActiveCfg = Release|Win32
+		{93C1FE26-D12D-486B-B404-25C366C3F794}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{93C1FE26-D12D-486B-B404-25C366C3F794} = {1DEB28FA-D047-485C-8ACC-B722CEA5E28B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AC5F1059-903D-490C-991D-272627EC8982}

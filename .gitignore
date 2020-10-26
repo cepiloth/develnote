@@ -27,3 +27,5 @@ graphics/image/Debug/image.lib.recipe
 *.iobj
 *.ipdb
 .vs/develnote/v16/.suo
+.vs/develnote/v16/.suo
+*.txt
