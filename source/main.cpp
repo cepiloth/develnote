@@ -20,10 +20,9 @@ using namespace std;
 */
 
 #include "aptiff2pdf.h"
+#include "apImage.h"
 
 int main(int argc, char** argv)
 {
-
-	tiff2pdf_main(argc, argv);
 	return 0;
 }
