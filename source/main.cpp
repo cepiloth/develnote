@@ -9,9 +9,7 @@ using namespace std;
 
 #include "PersonBuilderBase.h"
 #include "Person.h"
-
-int main()
-{
+/*
 	Person p = Person::create()
 		.lives().at("123 London Road")
 		.with_postcode("SW1 1GB")
@@ -19,6 +17,13 @@ int main()
 		.works().at("PragmaSoft")
 		.as_a("Consultant")
 		.earning(10e6);
+*/
 
+#include "aptiff2pdf.h"
+
+int main(int argc, char** argv)
+{
+
+	tiff2pdf_main(argc, argv);
 	return 0;
 }

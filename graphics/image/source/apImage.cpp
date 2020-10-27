@@ -50,27 +50,23 @@ apImage::apImage(const apImage& src)
 
 /*
 @brief: 기존의 데이터를 삭제하고, 원본 이미지를 재생성합니다.
-*/
 apImage& apImage::operator = (const apImage& src)
 {
-#if 0
-
 	if (&src != this) {
 		cleanup();
 		width_ = src.width();
 		height_ = src.height();
-		
+
 		init();
 		memcpy(pixels_, src.pixels_, width_ * height_);
 	}
-
-#else
-
+}
+*/
+apImage& apImage::operator = (const apImage& src)
+{
 	apImage tmp(src);
 	swap(tmp);
 	return *this;
-
-#endif
 }
 
 template<class T> void swap(T& a, T& b)
