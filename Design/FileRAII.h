@@ -1,11 +1,11 @@
-#include <iostream>
+#pragma once _fileraii_
+
 #include <string>
 using namespace std;
 
 /*
-* RAII 이 적용된 class 
+* RAII 이 적용된 class
 */
-
 class FileRAII {
 public:
 	FileRAII(const string& path, const string& mode) {
@@ -20,15 +20,17 @@ public:
 	std::FILE* file;
 };
 
+/* USAGE :
 int main(int argc, char** argv)
 {
 	// stack 에 할당
 	FileRAII file("test.txt", "wb+");
-	
+
 	void* buff = std::malloc(4);
 	if (buff == nullptr) {
 		return -1;
 	}
-	
+
 	return 0;
 }
+*/
