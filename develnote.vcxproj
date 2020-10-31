@@ -146,6 +146,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Design\Cat.h" />
     <ClInclude Include="Design\EmailBuilder.h" />
     <ClInclude Include="Design\FileRAII.h" />
     <ClInclude Include="Design\HtmlBuilder.h" />
@@ -156,6 +157,7 @@
     <ClInclude Include="Design\SingleTon.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Design\Cat.cpp" />
     <ClCompile Include="Design\Person.cpp" />
     <ClCompile Include="Design\PersonBuilder.cpp" />
     <ClCompile Include="source\main.cpp" />
