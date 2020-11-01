@@ -1,5 +1,6 @@
 #include "Cat.h""
 
+// 실제 구현 class
 class CatImpl
 {
 public:
